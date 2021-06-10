@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly's Office Furniture - Cart Page</title>
+
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" >
+</head>
+    <body class="cart-layout">
+        <!-- SIDE NAVIGATION -->
+        <nav class="sidenav">
+            <img class="logo" src="/Images/logo.png" alt="logo">
+            <a href="/html/Home.html">/HOME</a>
+            <button class="dropdown-btn">+PRODUCTS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="/html/ProductListing.html">Office Desks</a>
+                <a href="#">Office Chairs</a>
+                <a href="#">Office Storage</a>
+                <a href="#">Office Accessories</a>
+                <a href="#">Office Screens</a>
+                <a href="#">Educational Furniture</a>
+                <a href="#">Ergonomic Furniture</a>
+            </div>
+            <a href="#">+WORKING FROM HOME</a>
+            <a href="#">+OFFICE FIT OUT</a>
+            <a href="#">+SECOND HAND</a>
+            <a href="#">+SERVICES</a>
+            <input type="text" placeholder="Search..">
+            <a href="" cart-btn" id="cart-text">Cart (1)</a>
+        </nav>
+
+
+        <!-- MAIN CONTENT -->
+        <section class="cart">
+            <div class="cart-container">
+
+
+                <div class="cart-item">
+                    <img src="/Images/PostureLIFT (479).png">
+                    <div class="cart-item-information">
+                        <p class="cart-item-heading title2">Posture LIFT</p>
+                        <p class="cart-item-heading title2">$479.00</p>
+                        <p class="cart-item-text">Original</p>
+                        <p class="cart-item-text">Black</p>
+                        <p class="cart-item-text">In Stock</p>
+                    </div>
+                    <div class="cart-functions">
+                        <input class="cart-quantity-input" type="number" value="1" min="1">
+                        <button class="delete-item-btn button"onclick="window.location.href='/html/EmptyCart.html'">DELETE</button>
+                    </div>
+                </div>
+
+
+                <button class="cart-btn button" onclick="window.history.back()">  <!-- Back Button-->
+                    CONTINUE SHOPPING
+                </button>  
+                <button class="cart-btn button" onclick="window.location.href='/html/Shipping.html'">  <!-- Checkout Button-->
+                    CHECKOUT ($479.00) 
+                </button>
+                <button class="cart-btn button">  <!-- Paypal Button-->
+                    <img src="/Images/paypal logo.png">
+                </button>
+            </div>
+        </section>
+
+
+        <!-- BREAD CRUMB-->
+        <aside class="bc-cart">
+            <p class="title1">ITEMS (1)</p>
+            <ul class="breadcrumb">
+                <li><a class="previous" href="/html/Home.html">Home</a></li>
+                <li><a class="current" href="#">Cart</a></li>
+            </ul>
+        </aside>
+        
+
+        <!-- SCRIPT -->
+        <script src="/js/toggleDropdown.js"></script>
+        
+    </body>
+</html>

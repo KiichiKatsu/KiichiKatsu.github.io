@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly's Office Furniture - Cart Page</title>
+
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" >
+
+    <script src="https://use.fontawesome.com/4fdd18faeb.js"></script>
+</head>
+    <body class="product-layout">
+
+
+        <!-- SIDE NAVIGATION -->
+        <nav class="sidenav">
+            <img class="logo" src="/Images/logo.png" alt="logo">
+            <a href="/html/Home.html">/HOME</a>
+            <button class="dropdown-btn">+PRODUCTS</button>
+            <div class="dropdown-container">
+                <a href="/html/ProductListing.html">Office Desks</a>
+                <a href="#">Office Chairs</a>
+                <a href="#">Office Storage</a>
+                <a href="#">Office Accessories</a>
+                <a href="#">Office Screens</a>
+                <a href="#">Educational Furniture</a>
+                <a href="#">Ergonomic Furniture</a>
+            </div>
+            <a href="#">+WORKING FROM HOME</a>
+            <a href="#">+OFFICE FIT OUT</a>
+            <a href="#">+SECOND HAND</a>
+            <a href="#">+SERVICES</a>
+            <input type="text" placeholder="Search..">
+            <a href="/html/EmptyCart.html" cart-btn" id="cart-text" new-text="Cart (1)">Cart (0)</a>
+        </nav>
+
+
+        <!-- MAIN CONTENT - Main Product -->
+        <section class="product-page-item" id="productBackground">  <!-- Product -->
+            <div class="album">
+                <button class="album-img button" id="productBtn1">
+                    <img src="/Images/PostureLIFT (479).png" alt="productimg1" id="productImage1">
+                </button>
+                <button class="album-img button" id="productBtn2">
+                    <img src="/Images/PostureLIFT2 (479).png" alt="productimg2" id="productImage2">
+                </button>
+            </div>
+            <div class="product-aside">
+                <h1 class="product-title">Posture Lift</h1>
+                <h2 class="product-brand">Original</h2>
+                <hr class="divide-line">
+                <p class="normal-text">
+                    Kelly's PostureLIFT is a desk top accessory that enables you to convert your standard desk 
+                    to a height adjustable desk. Unlike its counter parts in the market that you manually lift 
+                    yourself, the PostureLIFT is electric and has a USB charger. Allowing for a much smoother 
+                    experience. From sitting to standing, ergonomically, it gives a greater overall experience.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <a href="#information">Review</a>
+                </div>
+                <hr class="divide-line">
+                <select name="product-options" class="product-options">
+                    <option value="No arms">No Arms</option>
+                    <option value="Single Arms">Single Arms +$139.00</option>
+                    <option value="Twin Arms">Twin Arms +$179.00</option>
+                </select>
+                <hr class="divide-line">
+                <div class="quantity-and-price">
+                    <input class="cart-quantity-input" type="number" value="1" min="1"> 
+                    <p class="product-title">$479.00</p>
+                </div>
+                <hr class="divide-line">
+                <a href="#">SHARE<img class="product-media-icons" src="/Images/media_icons2.png" alt="media_icons"></a>
+                <button class="button add-product-button" id="add-to-cart-btn">ADD TO CART</button>
+                
+                
+            </div>
+        </section>
+
+
+        <!-- MAIN CONTENT - Extra Information -->
+        <section class="product-page-info">
+
+            <button class="button">REVIEWS</button>
+            <div class="reviews">
+                <div class="review">
+                <div >
+                    <img src="/Images/user icon" alt="user_icon" class="review-icon">
+                </div>
+                <div>
+                    <p class="comment">Great product! Would buy again</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <p>Geli Webber</p>
+                    </div>
+                </div>
+                </div>
+                <hr class="divide-line">
+                <div class="review">
+                    <div >
+                        <img src="/Images/user icon" alt="user_icon" class="review-icon">
+                    </div>
+                    <div>
+                        <p class="comment">Good service and very durable product. Would recomend to people with back problems</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <p>Ivan Goodman</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divide-line">
+                <div class="review">
+                    <div >
+                        <img src="/Images/user icon" alt="user_icon" class="review-icon">
+                    </div>
+                    <div>
+                        <p class="comment">truly built different. I really enjoy the monitor arms it ocmes with</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <p>Joseph Wiseman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <button class="button">FEATURES</button>
+            <div class="features">
+                <ul>
+                    <li>> Height Adjustable</li>
+                    <li>> Electric Support</li>
+                    <li>> USB Charger</li>
+                    <li>> Ergonomic</li>
+                </ul>
+            </div>
+
+        </section>
+          
+
+        <!-- MAIN CONTENT - Recomended -->
+        <section class="product-page-recomended">  <!-- Recomended -->
+
+            <div>
+                <h1 class="title1" style="text-align: center;">RECOMENDED</h1>
+                <hr class="divide-line">
+            </div>
+
+            <div class="recomended-products">
+                <div class="product-item">
+                <a href="/html/ProductPage.html"><img src="/Images/PostureLIFT (479).png"></a>
+                <p class="product-name">Posture Lift</p>
+                <p class="product-price">$479.00</p>
+                <button class="button product-button" id="add-to-cart-btn">ADD TO CART</button>
+            </div>
+            
+            <div class="product-item">
+                <a href="#"><img src="/Images/Dry Bar Round Table (229.99).png"></a>
+                <p class="product-name">Dry Bar Round Table</p>
+                <p class="product-price">$229.99</p>
+                <button class="button product-button" id="add-to-cart-btn">ADD TO CART</button>
+            </div>
+    
+            <div class="product-item">
+                <a href="#"><img src="/Images/RAPID FLUX MEDIUM (609.99).png"></a>
+                <p class="product-name">Rapid Flux Medium</p>
+                <p class="product-price">$609.99</p>
+                <button class="button product-button" id="add-to-cart-btn">ADD TO CART</button>
+            </div>
+    
+            <div class="product-item">
+                <a href="#"><img src="/Images/Rapid Riser Medium (499 was 519).png"></a>
+                <p class="product-name">Rapid Riser Medium</p>
+                <p class="product-price">$519.00</p>
+                <button class="button product-button" id="add-to-cart-btn">ADD TO CART</button>
+            </div>
+    
+            <div class="product-item">
+                <a href="#"><img src="/Images/Rapid Riser Small (389.99).png"></a>
+                <p class="product-name">Rapid Riser Small</p>
+                <p class="product-price">$389.99</p>
+                <button class="button product-button" id="add-to-cart-btn">ADD TO CART</button>
+            </div>
+    
+            <div class="product-item">
+                <a href="#"><img src="/Images/SIT_STAND RISER DESK (349).png"></a>
+                <p class="product-name">Sit Stand Riser Desk</p>
+                <p class="product-price">$349.00</p>
+                <button class="button product-button" id="add-to-cart-btn">ADD TO CART</button>
+            </div>
+            </div>
+            
+        </section>  
+
+
+        <!-- BREAD CRUMB-->
+        <aside class="bc-product">
+            <p class="title1">Posture Lift <span style="color: white;">Orginal</span> </p> 
+            <ul class="breadcrumb">
+                <li><a class="previous" href="/html/Home.html">Home</a></li>
+                <li><a class="previous" href="/html/ProductListing.html">Office Desks</a></li>
+                <li><a class="current" href="#">Posture Lift</a></li>
+            </ul>
+        </aside>
+        
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <p class="footer-title">Kellys Office Furniture, Sydney</p>
+            <p class="footer-text">Kelly's Office Furniture supplies the widest selection of office furniture at the best prices. We stock the largest range of commercial, home office and educational furniture including desks, boardroom tables, workstations, reception desks, chairs, ergonomic chairs, storage solutions, compactus, screens, partitions, whiteboards  accessories and much more. We also have an extensive range of secondhand and used office furniture. Our aim is to make shopping easy with a complete selection of furniture from the most trusted brands.
+                Our main office furniture showroom is in Dee Why and we also have an office in Brookvale specialising in used office furniture. Large buying power, local manufacturing and direct importing allow us to supply the most competitive prices in the Sydney. Our business is split into two divisions; our Direct office furniture sales and our Corporate office furniture services, dedicated to office design and commercial office fit outs in the Sydney area. Phone us now on: (02) 9982 1077 or contact us for your free advice and assistance.</p>
+            <ul class="footer-list1">
+                <li class="list-heading">Desks</li>
+                <li class="list-element">Boardroom Tables</li>
+                <li class="list-element">Curved Front Desks</li>
+                <li class="list-element">Executive Desks</li>
+                <li class="list-element">Office Desks</li>
+                <li class="list-element">Office Systems</li>
+                <li class="list-element">Office Workstations</li>
+                <li class="list-element">"P" Shaped Desks</li>
+                <li class="list-element">Reception Desks</li>
+                <li class="list-element">Study Desks</li>
+                <li class="list-element">Steel Framed Tables</li>
+                <li class="list-element">Meeting Tables</li>
+                <li class="list-element">Coffee Tables</li>
+            </ul>
+            <ul class="footer-list2">
+                <li class="list-heading"> Office Chairs</li>
+                <li class="list-element">AFRDI Approved Chairs</li>
+                <li class="list-element">Bad Back Chairs</li>
+                <li class="list-element">Boardroom Chairs</li>
+                <li class="list-element">Client Office Chairs</li>
+                <li class="list-element">Computer Office Chairs</li>
+                <li class="list-element">Ergonomic Chairs</li>
+                <li class="list-element">Executive Chairs</li>
+                <li class="list-element">Leather Office Chairs</li>
+                <li class="list-element">Mesh Office Chairs</li>
+                <li class="list-element">Home Office Chairs</li>
+                <li class="list-element">Stacking Chairs</li>
+                <li class="list-element">Typist Chairs</li>
+                <li class="list-element">Lounges</li>
+                <li class="list-element">Reception Chairs</li>
+            </ul>
+            <ul class="footer-list3">
+                <li class="list-heading">Office Storage</li>
+                <li class="list-element">Bookcases</li>
+                <li class="list-element">Credenzas</li>
+                <li class="list-element">Filing Cabinets</li>
+                <li class="list-element">Mobiles</li>
+                <li class="list-element">Office Cupboards</li>
+                <li class="list-element">Office Shelving</li>
+                <li class="list-element">Lockers</li>
+                <li class="list-element">Compactus</li>
+                <li class="list-element">Plan Cabinets</li>
+            </ul>
+            <ul class="footer-list4">
+                <li class="list-heading">Office Accessories</li>
+                <li class="list-element">Cork Boards</li>
+                <li class="list-element">Desktop Storage</li>
+                <li class="list-element">Electronic Whiteboards</li>
+                <li class="list-element">Felt Boards</li>
+                <li class="list-element">Flip Charts</li>
+                <li class="list-element">Foot Stools</li>
+                <li class="list-element">Lecterns</li>
+                <li class="list-element">Office Bins</li>
+                <li class="list-element">Office Chair Mats</li>
+                <li class="list-element">Office Files</li>
+                <li class="list-element">Whiteboards</li>
+            </ul>
+            <ul class="footer-list5">
+                <li class="list-heading">Secondhand Office Furniture</li>
+                <li class="list-element">Filing Cabinets</li>
+                <li class="list-element">Workstations</li>
+                <li class="list-element">Office Chairs</li>
+                <li class="list-element">Office Desks</li>
+                <li class="list-element">Storage</li>
+            </ul>
+            <ul class="footer-list6">
+                <li class="list-heading">Office Fit Out</li>
+                <li class="list-element">Workstations</li>
+                <li class="list-element">Custom Made</li>
+                <li class="list-element">Home Office</li>
+                <li class="list-element">Pago Horizons</li>
+            </ul>
+            <ul class="footer-list7">
+                <li class="list-heading">Educational Furniture</li>
+                <li class="list-element">Tables</li>
+                <li class="list-element">Chairs</li>
+                <li class="list-element">Desks</li>
+                <li class="list-element">Storage</li>
+            </ul>
+            <ul class="footer-address">
+                <li class="list-element">Kellys Office Furniture, 824 Pittwater Rd, Dee Why 2099</li>
+                <li class="list-element">Sydney Australia,</li>
+                <li class="list-element">PH 02 9982 1077, Fax 02 9982 1644</li>
+                <li class="list-element">sales@kellysofficefurniture.com.au</li>
+            </ul>
+        </footer>
+
+
+        <!-- SCRIPT -->
+        <script src="/js/toggleDropdown.js"></script>
+        <script src="/js/albumImageSwap.js"></script>
+        <script src="/js/cartTextSwap.js"></script>
+        
+    </body>
+</html>
